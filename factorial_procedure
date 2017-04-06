@@ -1,0 +1,14 @@
+void prosesfaktorial(int x){
+	
+			int y = 0;
+			long long hasil = 1;
+			if(x <= 1){
+			cout << 1;
+			}else{
+			for (y = 1; y <= x; y++){
+			hasil = hasil*y;
+			}
+			}
+			cout << "hasilnya  : "<< hasil;
+			}   
+			
